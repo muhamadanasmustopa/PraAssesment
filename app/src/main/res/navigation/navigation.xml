@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation"
+            app:startDestination="@id/mainFragment">
+
+    <fragment android:id="@+id/mainFragment" android:name="org.d3if4026.prasassesment.MainFragment"
+              android:label="fragment_main" tools:layout="@layout/fragment_main">
+        <action android:id="@+id/action_mainFragment_to_segitigaFragment" app:destination="@id/segitigaFragment"/>
+        <action android:id="@+id/action_mainFragment_to_persegiPanjangFragment"
+                app:destination="@id/persegiPanjangFragment"/>
+        <action android:id="@+id/action_mainFragment_to_aboutFragment" app:destination="@id/aboutFragment"/>
+    </fragment>
+    <fragment android:id="@+id/segitigaFragment" android:name="org.d3if4026.prasassesment.SegitigaFragment"
+              android:label="fragment_segitiga" tools:layout="@layout/fragment_segitiga">
+        <action android:id="@+id/action_segitigaFragment_to_mainFragment2" app:destination="@id/mainFragment"
+        />
+    </fragment>
+    <fragment android:id="@+id/persegiPanjangFragment" android:name="org.d3if4026.prasassesment.PersegiPanjangFragment"
+              android:label="fragment_persegi_panjang" tools:layout="@layout/fragment_persegi_panjang">
+        <action android:id="@+id/action_persegiPanjangFragment_to_mainFragment2" app:destination="@id/mainFragment"
+        />
+    </fragment>
+    <fragment android:id="@+id/aboutFragment" android:name="org.d3if4026.prasassesment.AboutFragment"
+              android:label="fragment_about" tools:layout="@layout/fragment_about"/>
+</navigation>
