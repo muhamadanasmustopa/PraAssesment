@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_me">About Me</string>
+    <string name="welcome">WELCOME</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="login">LOGIN</string>
+    <string name="register_dulu">Belum Punya Akun? Register</string>
+    <string name="register">REGISTER</string>
+    <string name="register">REGISTER</string>
+    <string name="register1">REGISTER</string>
+    <string name="yukreg1">Isilah Data Dibawah Ini</string>
+    <string name="register_now">REGISTER NOW</string>
+    <string name="dashboard1">Ini Halaman Dashboard</string>
+    <string name="about_name">Melania Indah Safitri</string>
+</resources>

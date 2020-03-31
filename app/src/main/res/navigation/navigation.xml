@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="org.anas.myapplication.home"
+        android:label="home" >
+        <action
+            android:id="@+id/action_home2_to_register"
+            app:destination="@id/register" />
+        <action
+            android:id="@+id/action_home2_to_dashboard"
+            app:destination="@id/dashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/register"
+        android:name="org.anas.myapplication.register"
+        android:label="register" />
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="org.anas.myapplication.dashboard"
+        android:label="dashboard" />
+</navigation>
